@@ -1,0 +1,20 @@
+PROJECT WEBSITE CV BOOTSTRAP
+
+Isi folder:
+- index.html       : halaman utama / profil
+- pendidikan.html  : halaman pendidikan
+- skill.html       : halaman keahlian
+- kontak.html      : halaman kontak
+
+Cara menjalankan:
+1. Ekstrak folder ZIP.
+2. Buka folder hasil ekstrak di Visual Studio Code.
+3. Klik dua kali index.html melalui File Explorer, atau klik kanan index.html di VS Code lalu pilih Open with Live Server jika ekstensi tersedia.
+4. Pastikan internet aktif karena Bootstrap dan gambar contoh menggunakan CDN/URL online.
+
+Sebelum dikumpulkan:
+- Ganti [Isi program studi kamu].
+- Ganti email, Instagram, dan lokasi dengan informasi yang ingin ditampilkan.
+- Ganti gambar contoh dengan foto sendiri jika diinginkan.
+- Cek semua menu di setiap halaman.
+- Untuk publikasi internet, unggah semua file HTML ke layanan hosting statis seperti GitHub Pages.

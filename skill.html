@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keahlian - Assrofa Hamalna</title>
+    <!-- CSS Bootstrap CDN sesuai materi perkuliahan -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #fff7fb;
+            font-family: Arial, sans-serif;
+            color: #444;
+        }
+        .navbar { background-color: #ffffff; }
+        .navbar-brand { color: #c05283; font-weight: bold; }
+        .nav-link { color: #555; }
+        .nav-link:hover, .nav-link.active { color: #c05283; }
+        .hero {
+            background: linear-gradient(135deg, #f8c8dc, #fce8f0);
+            padding: 70px 0;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        .section-title {
+            color: #c05283;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        .card { border: none; border-radius: 15px; }
+        .btn-pink {
+            background-color: #c05283;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 25px;
+        }
+        .btn-pink:hover { background-color: #a63e6b; color: white; }
+        .skill-badge {
+            background-color: #f8d7e5;
+            color: #8f315b;
+            padding: 10px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 5px;
+        }
+        footer { background-color: #c05283; color: white; }
+        html { scroll-behavior: smooth; }
+    </style>
+
+</head>
+<body>
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Profile</a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menuNavbar"
+                aria-controls="menuNavbar" aria-expanded="false"
+                aria-label="Buka menu navigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link " href="index.html#tentang">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link " href="pendidikan.html">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="skill.html">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link " href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-5 fw-bold">Keahlian</h1>
+            <p class="lead">Kemampuan yang saya miliki dan pelajari</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="text-center">
+            <h2 class="section-title">Daftar Keahlian</h2>
+            <p>Berikut beberapa kemampuan yang sedang saya kembangkan.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card shadow-sm p-4 h-100">
+                    <h5 class="fw-bold">Pengembangan Web</h5>
+                    <div>
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm p-4 h-100">
+                    <h5 class="fw-bold">Komputer dan Data</h5>
+                    <div>
+                        <span class="skill-badge">Microsoft Office</span>
+                        <span class="skill-badge">Database Dasar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="index.html" class="btn btn-pink">Kembali ke Beranda</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Assrofa Hamalna. Dibuat menggunakan Bootstrap 5.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
