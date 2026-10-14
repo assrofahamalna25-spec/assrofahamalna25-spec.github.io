@@ -113,3 +113,13 @@
     location.href = 'mailto:Assrofahmalna25@gmail.com?subject=' + subject + '&body=' + body;
   });
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const intro = document.getElementById("portfolio-intro");
+
+    if (!intro) return;
+
+    window.setTimeout(function () {
+        intro.classList.add("intro-hidden");
+    }, 2200);
+});
