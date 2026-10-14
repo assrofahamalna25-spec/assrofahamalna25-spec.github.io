@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Assrofa Hamalna</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #f5e9ec;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .tombol {
+      display: inline-block;
+      margin: 0 0 20px;
+      padding: 12px 24px;
+      border: 2px solid #641e32;
+      border-radius: 25px;
+      background: #641e32;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .cv {
+      display: block;
+      width: 100%;
+      max-width: 850px;
+      height: auto;
+      margin: auto;
+      background: white;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: white;
+      }
+
+      .tombol {
+        display: none;
+      }
+
+      .cv {
+        width: 100%;
+        max-width: none;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="tombol" href="index.html">← Kembali ke Website</a>
+  <button class="tombol" onclick="window.print()">
+    Cetak CV
+  </button>
+
+  <img
+    class="cv"
+    src="cv-assrofa.png"
+    alt="Curriculum Vitae Assrofa Hamalna"
+  >
+</body>
+</html>
